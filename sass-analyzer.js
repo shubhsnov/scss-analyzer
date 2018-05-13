@@ -1,7 +1,7 @@
 (function () {
     "use strict";
 
-    var gonzales = require("./gonzales");
+    var gonzales = require("gonzales-pe");
     var path     = require("path");
 
     var HINTS_TYPE = {
