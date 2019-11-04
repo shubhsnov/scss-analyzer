@@ -1,8 +1,8 @@
 {
-  "name": "sass-analyzer",
+  "name": "scss-analyzer",
   "version": "1.0.0",
   "description": "A module that analyzes a scss file and infers hint tokens for mixin, functions, variables etc.",
-  "main": "sass-analyzer.js",
+  "main": "scss-analyzer.js",
   "dependencies": {
     "gonzales-pe": "https://github.com/shubhsnov/gonzales-pe/tarball/b1a29d5746a9c95e928b60fe8f8212dc07b83467"
   },
