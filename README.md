@@ -4,6 +4,10 @@ Sass Analyzer is project to make instrumentation around sass files easier in an 
 Currently the analyzer can be used to pass valid scss text and get contexual hints as output. This output can be used
 by an editor to provide code hinting.
 
+## Brackets Extension
+
+See `scss-analyzer` in action in this [code hinting extension](https://github.com/shubhsnov/intelligent-scss-hints) for [Brackets](http://brackets.io)
+
 ## Getting Started
 
 Create a sass file analyzer instance associated with some valid sass text
@@ -18,7 +22,7 @@ var hints = sassAnalyzer.getHints(["mixin", "imports", "variables"]); //pass an 
 var hints = sassAnalyzer.getHintsForCursorPos(["variable", "import"], {line: 98, column: 22});
 ```
 
-The analyzer is meant to be stateful, once text is passed, the analyzer gets associated 
+The analyzer is meant to be stateful, once text is passed, the analyzer gets associated
 with the text and analyzes the text based on the given type parametes.
 
 The above APIs can be called more than one with the same or different type parameters
@@ -33,7 +37,7 @@ to recompute the hints.
 
 ## Built With
 
-* [gonzales-pe](https://github.com/tonyganch/gonzales-pe) - CSS parser with support of preprocessors
+* Fault tolerant [fork](https://github.com/tonyganch/gonzales-pe) of [gonzales-pe](https://github.com/tonyganch/gonzales-pe) - CSS parser with support of preprocessors
 
 ## Authors
 
