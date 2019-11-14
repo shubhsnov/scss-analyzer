@@ -6,6 +6,16 @@
   "dependencies": {
     "gonzales-pe": "https://github.com/shubhsnov/gonzales-pe/tarball/b1a29d5746a9c95e928b60fe8f8212dc07b83467"
   },
+  "keywords":[
+      "scss",
+      "sass",
+      "mixins",
+      "inference-engine",
+      "hints",
+      "css",
+      "gonzales-pe",
+      "at-rules"
+  ],
   "author": "shubhsnov",
   "license": "MIT"
 }
