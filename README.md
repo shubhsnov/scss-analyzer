@@ -10,6 +10,9 @@ See `scss-analyzer` in action in this [code hinting extension](https://github.co
 
 ## Getting Started
 
+Require as:
+`var Analyzer = require("scss-analyzer").Analyzer;`
+
 Create a sass file analyzer instance associated with some valid sass text
 `var sassAnalyzer = new Analyzer(filepath, text);`
 
