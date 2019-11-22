@@ -1,6 +1,6 @@
 {
   "name": "scss-analyzer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A module that analyzes a scss file and infers hint tokens for mixin, functions, variables etc.",
   "main": "scss-analyzer.js",
   "dependencies": {
