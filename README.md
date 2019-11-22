@@ -1,3 +1,15 @@
+<p align="center">
+  <a href="https://github.com/shubhsnov/scss-analyzer/blob/master/README.md">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="scss-analyzer is released under the MIT license." />
+  </a>
+  <a href="https://www.npmjs.com/package/scss-analyzer">
+    <img src="https://badge.fury.io/js/scss-analyzer.svg" alt="Current npm package version." />
+  </a>
+  <a href="https://github.com/shubhsnov/scss-analyzer/blob/master/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="Help us" />
+  </a>
+</p>
+
 # Sass Analyzer
 
 Sass Analyzer is project to make instrumentation around sass files easier in an editing environment.
